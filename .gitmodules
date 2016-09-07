@@ -1,0 +1,21 @@
+[submodule "semanticcms-news-all"]
+	path = semanticcms-news-all
+	url = git@github.com:aoindustries/semanticcms-news-all.git
+[submodule "semanticcms-news-model"]
+	path = semanticcms-news-model
+	url = git@github.com:aoindustries/semanticcms-news-model.git
+[submodule "semanticcms-news-servlet"]
+	path = semanticcms-news-servlet
+	url = git@github.com:aoindustries/semanticcms-news-servlet.git
+[submodule "semanticcms-news-style"]
+	path = semanticcms-news-style
+	url = git@github.com:aoindustries/semanticcms-news-style.git
+[submodule "semanticcms-news-taglib"]
+	path = semanticcms-news-taglib
+	url = git@github.com:aoindustries/semanticcms-news-taglib.git
+[submodule "semanticcms-news-view"]
+	path = semanticcms-news-view
+	url = git@github.com:aoindustries/semanticcms-news-view.git
+[submodule "semanticcms-news-rss"]
+	path = semanticcms-news-rss
+	url = git@github.com:aoindustries/semanticcms-news-rss.git
