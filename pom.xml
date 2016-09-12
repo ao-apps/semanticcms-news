@@ -38,6 +38,7 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 	<name>SemanticCMS News</name>
 	<url>https://semanticcms.com/news/</url>
 	<description>Parent POM for SemanticCMS newsfeeds.</description>
+	<inceptionYear>2016</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-news.git</connection>
