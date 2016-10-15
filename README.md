@@ -3,7 +3,7 @@ Parent POM for [SemanticCMS](https://semanticcms.com/) newsfeeds.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/news/)
-* [Maven Central Repository](http://search.maven.org/#search|gav|1|g:%22com.semanticcms%22%20AND%20a:%22semanticcms-news%22)
+* [Maven Central Repository](https://search.maven.org/#search|gav|1|g:%22com.semanticcms%22%20AND%20a:%22semanticcms-news%22)
 * [GitHub](https://github.com/aoindustries/semanticcms-news)
 
 ## Modules
