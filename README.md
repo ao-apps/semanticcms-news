@@ -1,5 +1,5 @@
 # [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://www.aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [News](https://semanticcms.com/news/)
-Parent POM for [SemanticCMS newsfeeds](https://semanticcms.com/news/).
+Parent POM for [SemanticCMS](https://semanticcms.com/) newsfeeds.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/news/)
