@@ -60,6 +60,7 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 		<module>semanticcms-news-all</module>
 		<module>semanticcms-news-model</module>
 		<module>semanticcms-news-rss</module>
+		<!-- TODO: atom feeds, too -->
 		<module>semanticcms-news-servlet</module>
 		<module>semanticcms-news-style</module>
 		<module>semanticcms-news-taglib</module>
