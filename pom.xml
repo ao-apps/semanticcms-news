@@ -57,13 +57,13 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 	</scm>
 
 	<modules>
-		<module>semanticcms-news-all</module>
-		<module>semanticcms-news-model</module>
-		<module>semanticcms-news-rss</module>
+		<module>all</module>
 		<!-- TODO: atom feeds, too -->
-		<module>semanticcms-news-servlet</module>
-		<module>semanticcms-news-style</module>
-		<module>semanticcms-news-taglib</module>
-		<module>semanticcms-news-view</module>
+		<module>model</module>
+		<module>rss</module>
+		<module>servlet</module>
+		<module>style</module>
+		<module>taglib</module>
+		<module>view</module>
 	</modules>
 </project>
