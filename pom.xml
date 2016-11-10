@@ -36,7 +36,6 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 	<packaging>pom</packaging>
 
 	<properties>
-		<bookPath>/news</bookPath>
 		<shortTitle>News</shortTitle>
 		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="${project.parent.parent.url}">${project.parent.parent.name}</a>
 / <a target="_top" href="${project.parent.url}">News</a>
@@ -44,7 +43,7 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 	</properties>
 
 	<name>SemanticCMS News</name>
-	<url>https://semanticcms.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
+	<url>https://semanticcms.com/news/</url>
 	<description>Parent POM for SemanticCMS newsfeeds.</description>
 	<inceptionYear>2016</inceptionYear>
 
@@ -57,13 +56,21 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 	</scm>
 
 	<modules>
+		<module>book</module>
 		<module>all</module>
+		<module>all/book</module>
 		<!-- TODO: atom feeds, too -->
 		<module>model</module>
+		<module>model/book</module>
 		<module>rss</module>
+		<module>rss/book</module>
 		<module>servlet</module>
+		<module>servlet/book</module>
 		<module>style</module>
+		<module>style/book</module>
 		<module>taglib</module>
+		<module>taglib/book</module>
 		<module>view</module>
+		<module>view/book</module>
 	</modules>
 </project>
