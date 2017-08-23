@@ -36,14 +36,14 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 		datePublished="2016-10-19T14:33:00-0500"
 		dateModified="2017-07-18T20:35:30-0500"
 	>
-		<core:child page="changelog.jspx" />
-		<core:child book="/news/all" page="/index.jspx" />
-		<core:child book="/news/model" page="/index.jspx" />
-		<core:child book="/news/rss" page="/index.jspx" />
-		<core:child book="/news/servlet" page="/index.jspx" />
-		<core:child book="/news/style" page="/index.jspx" />
-		<core:child book="/news/taglib" page="/index.jspx" />
-		<core:child book="/news/view" page="/index.jspx" />
+		<core:child page="changelog" />
+		<core:child book="/news/all" page="/" />
+		<core:child book="/news/model" page="/" />
+		<core:child book="/news/rss" page="/" />
+		<core:child book="/news/servlet" page="/" />
+		<core:child book="/news/style" page="/" />
+		<core:child book="/news/taglib" page="/" />
+		<core:child book="/news/view" page="/" />
 		<ao:include
 			page="/ao-badges/badges.inc.jspx"
 			arg.projectStatus="${currentPage.property.projectStatus}"
@@ -53,25 +53,25 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 			arg.license="${currentPage.property.license}"
 		/>
 		<p>
-			Aggregator POM for <core:link book="/" page="/index.jspx">SemanticCMS</core:link> newsfeeds.
+			Aggregator POM for <core:link book="/" page="/" /> newsfeeds.
 		</p>
 		<section:section label="Project Links">
 			<ul>
-				<li><core:link page="index.jspx">Project Home</core:link></li>
-				<li><core:link page="changelog.jspx">Changelog</core:link></li>
+				<li><core:link page="/">Project Home</core:link></li>
+				<li><core:link page="changelog">Changelog</core:link></li>
 				<li><ao:a href="https://search.maven.org/#search%7Cgav%7C1%7Cg:%22@{documented.groupId}%22%20AND%20a:%22@{documented.artifactId}%22">Maven Central Repository</ao:a></li>
 				<li><ao:a href="@{documented.scm.url}">GitHub</ao:a></li>
 			</ul>
 		</section:section>
 		<section:section label="Modules">
 			<ul>
-				<li><core:link book="/news/all" page="/index.jspx" /></li>
-				<li><core:link book="/news/model" page="/index.jspx" /></li>
-				<li><core:link book="/news/rss" page="/index.jspx" /></li>
-				<li><core:link book="/news/servlet" page="/index.jspx" /></li>
-				<li><core:link book="/news/style" page="/index.jspx" /></li>
-				<li><core:link book="/news/taglib" page="/index.jspx" /></li>
-				<li><core:link book="/news/view" page="/index.jspx" /></li>
+				<li><core:link book="/news/all" page="/" /></li>
+				<li><core:link book="/news/model" page="/" /></li>
+				<li><core:link book="/news/rss" page="/" /></li>
+				<li><core:link book="/news/servlet" page="/" /></li>
+				<li><core:link book="/news/style" page="/" /></li>
+				<li><core:link book="/news/taglib" page="/" /></li>
+				<li><core:link book="/news/view" page="/" /></li>
 			</ul>
 		</section:section>
 	</core:page>
