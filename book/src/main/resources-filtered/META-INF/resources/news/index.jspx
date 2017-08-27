@@ -34,11 +34,12 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2016-10-19T14:33:00-0500"
-		dateModified="2017-07-18T20:35:30-0500"
+		dateModified="2017-08-26T17:33:04-0500"
 	>
 		<core:child page="changelog" />
 		<core:child book="/news/all" page="/" />
 		<core:child book="/news/model" page="/" />
+		<core:child book="/news/renderer/html" page="/" />
 		<core:child book="/news/rss" page="/" />
 		<core:child book="/news/servlet" page="/" />
 		<core:child book="/news/style" page="/" />
@@ -67,6 +68,7 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 			<ul>
 				<li><core:link book="/news/all" page="/" /></li>
 				<li><core:link book="/news/model" page="/" /></li>
+				<li><core:link book="/news/renderer/html" page="/" /></li>
 				<li><core:link book="/news/rss" page="/" /></li>
 				<li><core:link book="/news/servlet" page="/" /></li>
 				<li><core:link book="/news/style" page="/" /></li>

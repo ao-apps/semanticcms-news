@@ -30,6 +30,7 @@ Aggregator POM for [SemanticCMS](https://semanticcms.com/) newsfeeds.
 * [SemanticCMS News All](https://semanticcms.com/news/all/)
 * [SemanticCMS News Book](https://semanticcms.com/news/book/)
 * [SemanticCMS News Model](https://semanticcms.com/news/model/)
+* [SemanticCMS News Renderer HTML](https://semanticcms.com/news/renderer/html/)
 * [SemanticCMS News RSS](https://semanticcms.com/news/rss/)
 * [SemanticCMS News Servlet](https://semanticcms.com/news/servlet/)
 * [SemanticCMS News Style](https://semanticcms.com/news/style/)

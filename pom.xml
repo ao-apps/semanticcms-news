@@ -56,6 +56,8 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 		<!-- TODO: atom feeds, too -->
 		<module>model</module>
 		<module>model/book</module>
+		<module>renderer-html</module>
+		<module>renderer-html/book</module>
 		<module>rss</module>
 		<module>rss/book</module>
 		<module>servlet</module>
