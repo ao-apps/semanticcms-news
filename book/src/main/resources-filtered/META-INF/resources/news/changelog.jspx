@@ -37,7 +37,7 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T00:16:22-0500"
-		dateModified="2019-04-21T00:03:46-0500"
+		dateModified="2019-04-21T02:01:05-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-news:pom.version}" />
@@ -52,12 +52,21 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			>
-				<ul>
-					<li>Updated version of <ao:a href="https://semanticcms.com/parent/">SemanticCMS Parent</ao:a>.</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.2.0"
+			datePublished="2019-04-21T02:01:05-0500"
+			groupId="@{documented.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{documented.scm.url}"
+		>
+			<ul>
+				<li>Updated version of <ao:a href="https://semanticcms.com/parent/">SemanticCMS Parent</ao:a>.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
