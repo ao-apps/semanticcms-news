@@ -27,6 +27,7 @@ Aggregator POM for [SemanticCMS](https://github.com/aoindustries/semanticcms) ne
 * [GitHub](https://github.com/aoindustries/semanticcms-news)
 
 ## Modules
+* [SemanticCMS News BOM](https://github.com/aoindustries/semanticcms-news-bom)
 * [SemanticCMS News All](https://github.com/aoindustries/semanticcms-news-all)
 * [SemanticCMS News Model](https://github.com/aoindustries/semanticcms-news-model)
 * [SemanticCMS News RSS](https://github.com/aoindustries/semanticcms-news-rss)
