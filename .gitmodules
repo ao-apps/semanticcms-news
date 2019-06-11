@@ -22,3 +22,6 @@
 [submodule "renderer-html"]
 	path = renderer-html
 	url = git@github.com:aoindustries/semanticcms-news-renderer-html.git
+[submodule "bom"]
+	path = bom
+	url = git@aoindustries.github.com:aoindustries/semanticcms-news-bom.git
