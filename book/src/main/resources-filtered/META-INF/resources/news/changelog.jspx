@@ -36,7 +36,7 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T00:16:22-0500"
-		dateModified="2019-06-04T15:14:50-0500"
+		dateModified="2019-09-30T06:01:48-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-news:pom.version}" />
@@ -54,12 +54,22 @@ along with semanticcms-news.  If not, see <http://www.gnu.org/licenses />.
 			>
 				<ul>
 					<li>New module <core:link book="/news/renderer/html" page="/" />.</li>
-					<!-- TODO:
-					<li>TODO: New project <core:link book="/news/bom" page="/index.jspx" /> for managed dependencies.</li>
-					-->
 				</ul>
 			</changelog:release>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.2.1"
+			datePublished="2019-06-22T08:33:28-0500"
+			groupId="@{documented.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{documented.scm.url}"
+		>
+			<ul>
+				<li>New project <core:link book="/news/bom" page="/" /> for managed dependencies.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
