@@ -1,27 +1,36 @@
 [submodule "all"]
 	path = all
 	url = git@github.com:aoindustries/semanticcms-news-all.git
+	branch = .
 [submodule "model"]
 	path = model
 	url = git@github.com:aoindustries/semanticcms-news-model.git
+	branch = .
 [submodule "rss"]
 	path = rss
 	url = git@github.com:aoindustries/semanticcms-news-rss.git
+	branch = .
 [submodule "servlet"]
 	path = servlet
 	url = git@github.com:aoindustries/semanticcms-news-servlet.git
+	branch = .
 [submodule "style"]
 	path = style
 	url = git@github.com:aoindustries/semanticcms-news-style.git
+	branch = .
 [submodule "taglib"]
 	path = taglib
 	url = git@github.com:aoindustries/semanticcms-news-taglib.git
+	branch = .
 [submodule "view"]
 	path = view
 	url = git@github.com:aoindustries/semanticcms-news-view.git
+	branch = .
 [submodule "renderer-html"]
 	path = renderer-html
 	url = git@github.com:aoindustries/semanticcms-news-renderer-html.git
+	branch = .
 [submodule "bom"]
 	path = bom
 	url = git@aoindustries.github.com:aoindustries/semanticcms-news-bom.git
+	branch = .
