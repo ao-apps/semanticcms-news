@@ -19,7 +19,7 @@ Aggregator POM for [SemanticCMS](https://github.com/ao-apps/semanticcms) newsfee
 ## Project Links
 * [Project Home](https://semanticcms.com/news/)
 * [Changelog](https://semanticcms.com/news/changelog)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.semanticcms&q=a%3Asemanticcms-news)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-news)
 * [GitHub](https://github.com/ao-apps/semanticcms-news)
 
 ## Modules
