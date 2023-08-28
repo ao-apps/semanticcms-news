@@ -32,9 +32,6 @@ along with semanticcms-news.  If not, see <https://www.gnu.org/licenses/>.
   <groupId>com.semanticcms</groupId><artifactId>semanticcms-news</artifactId><version>1.7.2-POST-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <properties>
-  </properties>
-
   <name>SemanticCMS News</name>
   <url>https://semanticcms.com/news/</url>
   <description>Aggregator POM for SemanticCMS newsfeeds.</description>
